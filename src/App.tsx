@@ -15,6 +15,8 @@ import { MuiNavbar } from "./Components/MuiNavbar";
 // import { MuiButton } from "./Components/MuiButton";
 // import { MuiTextField } from "./Components/MuiTextField";
 // import { MuiCheckbox } from "./Components/MuiCheckbox";
+// import { MuiLink } from "./Components/MuiLink";
+import { MuiBreadcrumbs } from "./Components/MuiBreadcrumbs";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
       <MuiNavbar />
+      {/* <MuiLink /> */}
+      <MuiBreadcrumbs />
     </div>
   );
 }
