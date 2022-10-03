@@ -1,5 +1,10 @@
 import "./App.css";
-import { MuiLoadingButton } from "./Components/MuiLoadingButton";
+// import { LocalizationProvider } from "@mui/lab";
+// import AdapterDateFns from "@mui/lab/AdapterDateFns";
+import { MuiTabs } from "./Components/MuiTabs";
+// import { MuiDateRangePicker } from "./MuiDateRangePicker";
+// import { MuiDateTimePicker } from "./Components/MuiDateTimePicker";
+// import { MuiLoadingButton } from "./Components/MuiLoadingButton";
 // import { MuiSkeleton } from "./Components/MuiSkeleton";
 // import { MuiSkeletonNew } from "./Components/MuiSkeletonNew";
 // import { MuiDialog } from "./Components/MuiDialog";
@@ -37,6 +42,7 @@ import { MuiLoadingButton } from "./Components/MuiLoadingButton";
 
 function App() {
   return (
+    // <LocalizationProvider dateAdapter={AdapterDateFns}>
     <div className="App">
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
@@ -48,7 +54,7 @@ function App() {
       {/* <MuiRating /> */}
       {/* <MuiAutocomplete /> */}
       {/* <MuiLayout />
-      <MuiGrid /> */}
+        <MuiGrid /> */}
       {/* <MuiPaper /> */}
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
@@ -58,7 +64,7 @@ function App() {
       {/* <MuiBreadcrumbs /> */}
       {/* <MuiDrawer /> */}
       {/* <MUIBottomNavigation />
-      <MuiSpeedDial /> */}
+        <MuiSpeedDial /> */}
       {/* <MuiAvatar /> */}
       {/* <MuiBadge /> */}
       {/* <MuiList /> */}
@@ -71,9 +77,13 @@ function App() {
       {/* <MuiDialog /> */}
       {/* <MuiProgress /> */}
       {/* <MuiSkeleton />
-      <MuiSkeletonNew /> */}
-      <MuiLoadingButton />
+        <MuiSkeletonNew /> */}
+      {/* <MuiLoadingButton /> */}
+      {/* <MuiDateTimePicker /> */}
+      {/* <MuiDateRangePicker /> */}
+      <MuiTabs />
     </div>
+    // </LocalizationProvider>
   );
 }
 
